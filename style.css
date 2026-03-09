@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+}
+header, section{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/* HEADER */
+header{
+    background-color: white;
+    margin-bottom: 0px;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    margin-left: 10px;
+    font-family: 'Outfit';
+    text-decoration: none;
+    font-size: 18px;
+}
+nav button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 100px;
+    border: 0px solid;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background-color: #0F3B79;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 60px;
+    height: auto;
+    float: left;
+}
+#logo span{
+    margin-left: 10px;
+    font-family: 'Outfit';
+}
+
+/* MAIN */
+/* hero section */
+.hero{
+    background-image: url(images/background-vandel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1, p{
+    margin: 0px;
+}
+#hero-text{
+    margin-top: -70px;
+}
+#hero-title{
+    font-size: 76px;
+    text-align: center;
+}
+#hero-desc{
+    margin-top: 10px;
+    text-align: center;
+}
+.hero button{    
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #0F3B79;
+    width: 150px;
+    font-size: 16px;
+}
+
+/* mini-catalog section */
+.catalog{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(images/catalog-background.png);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog h2{
+    font-size: 60px;
+}
+.catalog .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.catalog .container .card{
+    width: 350px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: white;
+}
